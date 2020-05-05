@@ -113,7 +113,9 @@ And you're done!
 ### Mac: CamTwist
 Download and install [CamTwist](http://camtwiststudio.com/).
 
-Open CamTwist.
+! restart your computer !
+
+Now open CamTwist.
 The interface is not very intuitive so let's go through this together:
 
 1. Select a video source underneath 'Step 1'

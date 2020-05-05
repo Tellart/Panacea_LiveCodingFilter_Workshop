@@ -1,6 +1,8 @@
-var capture, tracker
-var w = 640
-var h = 480
+let capture, tracker
+let w = 640
+let h = 480
+
+let c
 
 function setup() {
   createCanvas(w, h)
@@ -14,6 +16,14 @@ function setup() {
   tracker = new clm.tracker()
   tracker.init()
   tracker.start(capture.elt)
+
+  c = [
+  color(103, 194, 147),
+  color(246, 147, 131),
+  color(39, 144, 201),
+  color(133, 131, 186),
+  color(241, 97, 64)
+  ]
 }
 
 function draw() {
@@ -27,7 +37,7 @@ function draw() {
   let positions = tracker.getCurrentPosition()
   
   if(positions.length>0) {
-    fill(255)
+    fill(c[0])
     noStroke()
     for(var i = 0; i < positions.length; i++) {
       ellipse(positions[i][0], positions[i][1], 5, 5)
@@ -37,10 +47,11 @@ function draw() {
     // now if you just want to draw a rectangle on point 1
     // positions[1][0] is the x position (0) for point 1
     // positions[1][1] is the y position (1) for point 1
-    fill(255, 0, 0)
+    fill(c[2])
     rect(positions[1][0], positions[1][1], 20, 20)
     
     // if you want to create a shape from multiple points you can use:
+    fill(c[4])
     beginShape()
     vertex(positions[30][0], positions[30][1])
     vertex(positions[68][0], positions[68][1])
