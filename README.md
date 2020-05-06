@@ -10,10 +10,9 @@ We will use the virtual camera to stream your screen to the video call so that w
 Scroll down to "Setting up a virtual camera" below.
 
 
-### p5.js editor
+## p5.js editor
 
-We will use the p5.js online editor: https://editor.p5js.org/
-Please create an account for your convenience; wich an account you can save your sketches for later
+We will use the p5.js online editor: https://editor.p5js.org/. Please create an account for your convenience; with an account you can save your sketches for later. 
 
 #### Using the clmtrackr face tracking library 
 
@@ -85,7 +84,7 @@ In the folder 'examplefunction' you can find some example code for how to draw t
 
 ## Setting up a virtual camera
 
-This is a step-by-step of how to install the required sofware to share your screen or a specific window as a virtual camera. 
+This is a step-by-step of how to install the required sofware to share your screen or a specific window as a virtual camera. Depending our your operating system follow the instructions below.  
 
 ### Windows: OBS Studio
 Download and install [OBS Studio](https://obsproject.com/download)
