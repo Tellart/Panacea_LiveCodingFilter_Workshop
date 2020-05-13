@@ -14,7 +14,8 @@ Scroll down to "Setting up a virtual camera" below.
 
 We will use the p5.js online editor: https://editor.p5js.org/. Please create an account for your convenience; with an account you can save your sketches for later. 
 
-Here's the example sketch to get you started https://editor.p5js.org/SabrinaVerhage/sketches/qUdZEgRdS 
+Here's the example sketch to get you started https://editor.p5js.org/SabrinaVerhage/sketches/qUdZEgRdS. 
+
 You can also find this example code in the 'startscript' folder.
 
 #### Using the clmtrackr face tracking library 
